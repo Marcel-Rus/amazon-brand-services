@@ -1,11 +1,11 @@
 import React from 'react';
-import './TopBar.scss';
+import styles from './TopBar.module.scss';
 import AmazonLogo from '../assets/images/amazon/logo-amazon-white.svg';
 
 function TopBar() {
     return (
-        <div class="container">
-            <div className="top-bar">
+        <div class={`container ${styles.container}`}>
+            <div className={`top-bar ${styles.topBar} ${styles.darkTopBar}`}>
                 <div className="top-bar-left">
                     <ul className="menu">
                         <img src={AmazonLogo}></img>

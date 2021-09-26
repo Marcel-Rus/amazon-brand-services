@@ -4,23 +4,23 @@
     background-color: $tertiary-color;
 }
 
-div.top-bar {
+div.topBar {
     min-height: 80px;
     max-width: 1200px;
-    padding: 0 80px;
+    padding: 0 20px 0 34px;
     margin: 0 auto;
 }
 
-div.top-bar, div.top-bar-left, div.top-bar-right, div.top-bar ul {
+div.darkTopBar, div.darkTopBar > div, div.darkTopBar ul {
     background-color: $tertiary-color;
 }
 
-div.top-bar ul li a {
+div.darkTopBar ul li a {
     color: $white;
     font-weight: 700;
 }
 
-ul.menu img {
+div.darkTopBar ul img {
     position: relative;
     top: 8px;
     margin-right: 40px;

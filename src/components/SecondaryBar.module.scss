@@ -1,0 +1,32 @@
+@import '../settings';
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 32px rgb(0 0 0 / 10%);
+}
+
+div.topBar {
+    min-height: 72px;
+    max-width: 1200px;
+    padding: 0 30px 0 15px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+div.topBar, div.topBar > div, div.topBar ul {
+    background-color: #fff;
+}
+
+div.topBar ul li a {
+    color: $secondary-color;
+    font-weight: 700;
+}
+
+a.signIn {
+    margin-right: 40px;
+}
+
+div.topBar ul li a.rounded {
+    font-weight: 900;
+    border-radius: 20px;
+}
