@@ -4,7 +4,7 @@ import AmazonLogo from '../assets/images/amazon/logo-amazon-white.svg';
 
 function TopBar() {
     return (
-        <div class={`container ${styles.container}`}>
+        <div class={`${styles.container}`}>
             <div className={`top-bar ${styles.topBar} ${styles.darkTopBar}`}>
                 <div className="top-bar-left">
                     <ul className="menu">
@@ -22,7 +22,6 @@ function TopBar() {
                 </div>
             </div>
         </div>
-        
     );
 }
 

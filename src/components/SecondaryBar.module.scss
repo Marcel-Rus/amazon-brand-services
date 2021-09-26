@@ -17,16 +17,11 @@ div.topBar, div.topBar > div, div.topBar ul {
     background-color: #fff;
 }
 
-div.topBar ul li a {
+li a, li a:hover, li a:focus {
     color: $secondary-color;
     font-weight: 700;
 }
 
 a.signIn {
     margin-right: 40px;
-}
-
-div.topBar ul li a.rounded {
-    font-weight: 900;
-    border-radius: 20px;
 }

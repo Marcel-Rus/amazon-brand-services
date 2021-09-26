@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './SecondaryBar.module.scss';
+import RoundedButton from './RoundedButton';
 
 function TopBar() {
     return (
-        <div class={`container ${styles.container}`}>
+        <div className={`${styles.container}`}>
             <div className={`top-bar ${styles.topBar}`}>
                 <div className="top-bar-left">
                     <ul className="menu">
@@ -13,7 +14,7 @@ function TopBar() {
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li><a href="#" className={`${styles.signIn}`}>Sign in</a></li>
-                        <li><a href="#0" className={`button ${styles.rounded}`}>Get Started</a></li>
+                        <li><RoundedButton text={"Get Started"}></RoundedButton></li>
                     </ul>
                 </div>
             </div>
