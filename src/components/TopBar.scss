@@ -1,0 +1,27 @@
+@import '../settings';
+
+.container {
+    background-color: $tertiary-color;
+}
+
+div.top-bar {
+    min-height: 80px;
+    max-width: 1200px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+div.top-bar, div.top-bar-left, div.top-bar-right, div.top-bar ul {
+    background-color: $tertiary-color;
+}
+
+div.top-bar ul li a {
+    color: $white;
+    font-weight: 700;
+}
+
+ul.menu img {
+    position: relative;
+    top: 8px;
+    margin-right: 40px;
+}

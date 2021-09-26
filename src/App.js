@@ -1,9 +1,13 @@
-import './App.css';
+import React from 'react';
+import TopBar from './components/TopBar.js';
+
+import './App.scss';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Build and protect your brand</h1>
+      <TopBar></TopBar>
     </div>
   );
 }
