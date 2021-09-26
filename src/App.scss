@@ -1,8 +1,6 @@
 @import 'settings';
 @import 'foundation-sites/scss/foundation';
 
-
-
 // Global styles
 @include foundation-global-styles;
 @include foundation-forms;
@@ -56,12 +54,8 @@
 
 // Helpers
 @include foundation-float-classes;
+
 // @include foundation-flex-classes;
 @include foundation-visibility-classes;
+
 // @include foundation-prototype-classes;
-
-$body-color: red;
-
-h1 {
-    color: $body-color;
-}
