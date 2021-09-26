@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "AEbd";
+    src: url("./assets/fonts/AmazonEmberDisplay_W_Bd.woff") format("woff");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "AEhe";
+    src: url("./assets/fonts/AmazonEmberDisplay_W_He.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AElt";
+    src: url("./assets/fonts/AmazonEmberDisplay_W_Lt.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AEmd";
+    src: url("./assets/fonts/AmazonEmberDisplay_W_Md.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AErg";
+    src: url("./assets/fonts/AmazonEmberDisplay_W_Rg.woff") format("woff");
+}
+
+h1 {
+    font-family: AEhe;
+    font-size: 64px;
+    color: #232f3e;
 }
