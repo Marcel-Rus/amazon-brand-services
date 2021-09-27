@@ -14,7 +14,7 @@ function TopBar() {
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li><a href="#" className={`${styles.signIn}`}>Sign in</a></li>
-                        <li><RoundedButton text={"Get Started"}></RoundedButton></li>
+                        <li><RoundedButton text={"Get started"}></RoundedButton></li>
                     </ul>
                 </div>
             </div>
