@@ -1,12 +1,33 @@
+@import './settings';
+
 .navBar {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.topPage {
-    margin-top: 190px;
-    margin-bottom: 80px;
-    /*background-image: url("./assets/images/amazon/wave.svg");
-    background-position: bottom center;*/
+.container {
+    background-color: $tertiary-color;
+}
+
+div.topBar {
+    min-height: 80px;
+    max-width: 1200px;
+    padding: 0 20px 0 34px;
+    margin: 0 auto;
+}
+
+div.darkTopBar, div.darkTopBar > div, div.darkTopBar ul {
+    background-color: $tertiary-color;
+}
+
+div.darkTopBar ul li a {
+    color: $white;
+    font-weight: 700;
+}
+
+div.darkTopBar ul img {
+    position: relative;
+    top: 8px;
+    margin-right: 40px;
 }
