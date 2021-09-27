@@ -5,10 +5,10 @@ function Section(props) {
     return (
         <div className={styles.container}>
             <div className="row">
-                <div className="large-6 columns">
+                <div className={`${props.columnsLeft} columns`}>
                     {props.left}
                 </div>
-                <div className="large-6 columns">
+                <div className={`${props.columnsRight} columns`}>
                     {props.right}
                 </div>
             </div>
