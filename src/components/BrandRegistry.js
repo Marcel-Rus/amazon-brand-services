@@ -1,6 +1,4 @@
 import React from 'react';
-import TopBar from './TopBar.js';
-import SecondaryBar from './SecondaryBar.js';
 import Section from './Section.js';
 import CallToAction from './CallToAction.js';
 import TextBlock from './TextBlock.js';
@@ -18,10 +16,6 @@ import amazonShield from '../assets/images/amazon/orange-shield._CB1525824425_.s
 function BrandRegistry() {
   return (
     <div>
-        <div className={styles.navBar}>
-            <TopBar/>
-            <SecondaryBar/>
-        </div>
         <div className={styles.topPage}>
             <Section
                 columnsLeft={"large-6"}
