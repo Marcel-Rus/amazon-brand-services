@@ -2,8 +2,11 @@
 
 View a live demo of the website clone [here](https://amazon.developer.gallery/).
 
+The original [Amazon Brand Services website](https://brandservices.amazon.com/) for comparison.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project uses the Foundation 6 framework.
+
+This project uses the [Foundation 6](https://get.foundation/sites/docs/) framework.
 
 ## Available Scripts
 
