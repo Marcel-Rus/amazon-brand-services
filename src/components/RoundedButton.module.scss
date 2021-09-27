@@ -1,14 +1,18 @@
 @import '../settings';
 
 a.rounded {
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 16px;
+    min-width: 126px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
     color: $secondary-color;
     box-shadow: 0 0 16px rgb(0 0 0 / 20%);
 }
 
 a.rounded:hover, a.rounded:focus {
-    font-weight: 900;
+    font-weight: 700;
     color: $secondary-color;
     box-shadow: 0 0 16px rgba(0,0,0,.35);
 }
