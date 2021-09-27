@@ -8,6 +8,9 @@ function Section(props) {
                 <div className={`${props.columnsLeft} columns`}>
                     {props.left}
                 </div>
+                <div className={`${props.columnsMiddle} columns`}>
+                    {props.middle}
+                </div>
                 <div className={`${props.columnsRight} columns`}>
                     {props.right}
                 </div>
