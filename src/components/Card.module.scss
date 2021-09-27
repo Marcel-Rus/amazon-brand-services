@@ -1,0 +1,26 @@
+@import '../settings';
+
+div.container {
+    padding: 0 40px 40px 40px;
+    box-shadow: 0 0 32px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0);
+
+    img {
+        height: 110px;
+        width: 80px;
+    }
+
+    h3 {
+        font-weight: 900;
+        color: $secondary-color;
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        color: $amazon-gray;
+    }
+}
