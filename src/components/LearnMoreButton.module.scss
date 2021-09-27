@@ -1,0 +1,33 @@
+@import '../settings';
+
+div.container {
+    text-align: center;
+    padding-top: 30px;
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        color: $secondary-color;
+    }
+}
+
+a.rounded {
+    font-weight: 700;
+    font-size: 16px;
+    min-width: 126px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: $secondary-color;
+    box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+
+    background-color: #fff;
+    border: 2px solid $secondary-color;
+}
+
+a.rounded:hover, a.rounded:focus {
+    font-weight: 700;
+    color: $secondary-color;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0,0,0,.35);
+}
