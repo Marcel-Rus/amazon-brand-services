@@ -1,0 +1,27 @@
+@import '../settings';
+
+.container { 
+    :first-child {
+        font-size: 13px;
+        color: $secondary-color;
+        margin-bottom: 0;
+        font-stretch: expanded;
+    }
+    
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        font-family: "AEmb";
+        font-weight: 900;
+        color: $secondary-color;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        color: $amazon-gray;
+        padding-top: 20px;
+        max-width: 525px;
+    }
+}
